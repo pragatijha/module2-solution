@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Module2_solution</title>
+<style>
+
+
+#container{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	align-items: center;
+	margin:50px;
+}
+#container1{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	margin:50px;
+	
+	padding:30px;
+}
+
+#p{
+margin: 10px;
+
+}
+#l1{
+	border: 5px solid black;
+	align-self: flex-end;
+	text-align: center;
+	width: 50px;
+	background-color:#FFB6C1;
+
+}
+#l2{
+	border: 5px solid black;
+	align-self: flex-end;
+	text-align: center;
+	width: 50px;
+	background-color:#FF0000;
+	}
+#l3{
+	border: 5px solid black;
+	align-self: flex-end;
+	text-align: center;
+	width: 50px;
+	background-color:#ecbcb4;
+}
+#innerDiv1{
+	width: 300px;
+	height:200px;
+	border: 7px solid black;
+	background-color:#ADD8E6;
+	display:flex;
+	flex-direction: column;
+	align:center;
+
+		}
+
+#innerdiv{
+
+	height:200px;
+	border: 7px solid black;
+	background-color:#ADD8E6;
+	display:flex;
+	flex-direction: column;
+	margin:50px;
+	width:900px;
+}
+#h1{
+	text-align:center;
+
+}
+
+</style>
+</head>
+<body>
+	<div>
+		<div>
+			<h1 id="h1"> OUR MENU</h1>
+				<div id="container">
+					<div id= "innerDiv1">
+					<label id="l1">chicken</label>
+						<p id="p">
+							Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+						</p>
+					</div>
+					<div id= "innerDiv1">
+						<label id="l2">beef</label>
+						<p id="p">
+						Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+					</div>
+					
+					<div id= "innerDiv1">
+						<label id="l3">sushi</label>
+							<p id="p">
+							Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+			   				</p>
+					</div>
+				</div>
+		</div>
+		<div>
+			<h1 id="h1"> OUR MENU</h1>
+			<div id="container">
+				
+					<div id= "innerDiv1">
+					<label id="l1">chicken</label>
+						<p id="p">Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+						</p>
+					</div>
+					<div id= "innerDiv1">
+					<label id="l2">beef</label>
+						<p id="p">Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+					</div>
+				</div>
+				<div id="container">	
+						<div id= "innerdiv">
+							<label id="l3">sushi</label>
+								<p id="p">Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+								exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+				 				</p>
+						</div>
+					</div>
+				
+
+
+		</div>
+		<div>
+			<h1 id="h1"> OUR MENU</h1>
+				<div id="container">
+					<div id= "innerDiv1">
+					<label id="l1">chicken</label>
+						<p id="p">
+							Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+						</p>
+					</div>
+				</div>
+				<div id="container">
+					<div id= "innerDiv1">
+					<label id="l2">beef</label>
+						<p id="p">
+						Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+					</div>
+				</div>
+				<div id="container">
+					<div id= "innerDiv1">
+						<label id="l3">sushi</label>
+							<p id="p">
+							Iorem ipsum dolor sit amet, consecteur adipsicing elit, sed do eiusmod tempor incididunt ut labore etvdolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
+			   				</p>
+					</div>
+				</div>
+		</div>
+	</div>
+</body>
+</html>
